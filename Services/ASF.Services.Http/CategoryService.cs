@@ -28,7 +28,7 @@ namespace ASF.Services.Http
         public Category Add(Category category)
         {
             try
-            {
+            { //harrypotter
                 var bc = new CategoryBusiness();
                 return bc.Add(category);
             }
