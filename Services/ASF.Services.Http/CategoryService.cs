@@ -89,7 +89,8 @@ namespace ASF.Services.Http
         }
 
         [HttpGet]
-        [Route("Find/{id}")]
+        [Route("Find")]
+        //[Route("Find/{id}")] ORIGINALMENTE ESTABA ASI
         public FindResponse Find(int id)
         {
             try
